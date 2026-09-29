@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Processador de Texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Transformador de Texto</h1>
+    
+    <label for="userInput">Digite seu texto:</label>
+    <textarea id="userInput" placeholder="Digite uma frase com palavras como 'ruim' ou 'chato'..."></textarea>
+
+    <div class="actions">
+      <button id="btnProcess">Processar Texto</button>      <button id="btnRandom">Gerar Sorteio</button>
+    </div>
+
+    <h2>Resultado:</h2>
+    <div id="output" class="output-box">O resultado aparecerá aqui...</div>
+  </main>
+
+  <!-- script com type="module" para suportar import/export -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
