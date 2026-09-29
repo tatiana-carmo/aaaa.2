@@ -1,82 +1,63 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    /* Amarelo Manteiga no fundo da página */
+    background-color: #FFF1C5; 
+    /* Texto em cinza escuro para facilitar a leitura */
+    color: #333333; 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-.caixa-principal {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
-  padding: 30px;
-  max-width: 600px;
-  width: 100%;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+.quiz-container {
+    /* Rosa Bebê no card principal do Quiz */
+    background-color: #FAD2E1; 
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.titulo {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #00d2ff;
+h1 {
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 20px;
 }
 
-.caixa-conteudo {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.question {
+    margin-bottom: 20px;
+    /* Branco suave para destacar os blocos de perguntas */
+    background: #FFFFFF; 
+    padding: 15px;
+    border-radius: 8px;
 }
 
-.escondido {
-  display: none;
+h3 {
+    margin-top: 0;
+    color: #333333;
 }
 
-.texto-pergunta, .descricao, .texto-resultado {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.caixa-botoes {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+label {
+    cursor: pointer;
+    line-height: 1.8;
 }
 
 .btn {
-  background: #00d2ff;
-  color: #000;
-  border: none;
-  padding: 12px 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    width: 100%;
+    padding: 12px;
+    /* Amarelo Manteiga no botão */
+    background-color: #FFF1C5; 
+    color: #4A4A4A;
+    border: 2px solid #E6D49E;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .btn:hover {
-  background: #0082c8;
-  color: #fff;
-  transform: translateY(-2px);
-}
-
-.btn-reiniciar {
-  background: #ff416c;
-  color: #fff;
-}
-
-.btn-reiniciar:hover {
-  background: #ff4b2b;
+    /* Fica ligeiramente mais escuro ao passar o mouse */
+    background-color: #F7E4AB; 
 }

@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jornada 2049</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Muay Thai</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="caixa-principal">
-    <h1 class="titulo">Em 2049...</h1>
 
-    <div id="tela-inicial" class="caixa-conteudo">
-      <p class="descricao">
-        Sua missão é tomar decisões cruciais para a sobrevivência da colônia tecnológica. 
-        Suas escolhas moldarão o futuro do planeta!
-      </p>
-      <button id="btn-iniciar" class="btn">Iniciar Missão</button>
+    <div class="quiz-container">
+        <h1>Quiz de Muay Thai 🥊</h1>
+        
+        <form id="quiz-form">
+            <!-- Pergunta 1 -->
+            <div class="question">
+                <h3>1. O Muay Thai também é conhecido como:</h3>
+                <label><input type="radio" name="q1" value="a"> A Arte das Quatro Armas</label><br>
+                <label><input type="radio" name="q1" value="b"> A Arte das Oito Armas</label><br>
+                <label><input type="radio" name="q1" value="c"> A Dança do Tigre</label>
+            </div>
+
+            <!-- Pergunta 2 -->
+            <div class="question">
+                <h3>2. De qual país é originário o Muay Thai?</h3>
+                <label><input type="radio" name="q2" value="a"> Tailândia</label><br>
+                <label><input type="radio" name="q2" value="b"> Japão</label><br>
+                <label><input type="radio" name="q2" value="c"> China</label>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="question">
+                <h3>3. Como é chamada a dança ritualística feita antes da luta?</h3>
+                <label><input type="radio" name="q3" value="a"> Mongkhon</label><br>
+                <label><input type="radio" name="q3" value="b"> Wai Kru Ram Muay</label><br>
+                <label><input type="radio" name="q3" value="c"> Prajiad</label>
+            </div>
+
+            <button type="submit" class="btn">Enviar Respostas</button>
+        </form>
     </div>
 
-    <div id="tela-jogo" class="caixa-conteudo escondido">
-      <p id="enunciado-pergunta" class="texto-pergunta"></p>
-      <div id="caixa-alternativas" class="caixa-botoes"></div>
-    </div>
-
-    <div id="tela-final" class="caixa-conteudo escondido">
-      <h2>Missão Concluída!</h2>
-      <p id="texto-resultado" class="texto-resultado"></p>
-      <button id="btn-reiniciar" class="btn btn-reiniciar">Jogar Novamente</button>
-    </div>
-  </main>
-
-  <script type="module" src="js/main.js"></script>
 </body>
 </html>
