@@ -1,23 +1,23 @@
 export const perguntas = [
   {
-    enunciado: "Em 2049, você descobre uma falha crítica na rede de energia da cidade. O que faz?",
+    enunciado: "No primeiro dia de treino, você precisa escolher qual arte marcial focar. O que faz?",
     alternativas: [
-      { texto: "Desativa o setor principal para conter o dano.", afirmacao: "priorizou a segurança imediata" },
-      { texto: "Tenta criar um código de reparo em tempo real.", afirmacao: "assumiu riscos altos pela eficiência" }
+      { texto: "Escolhe o Muay Thai para aprender a 'Arte das Oito Armas'.", afirmacao: "dedicou-se ao Muay Thai" },
+      { texto: "Prefere um esporte focado puramente em corrida e cardio.", afirmacao: "focou no condicionamento aeróbico" }
     ]
   },
   {
-    enunciado: "Um androide desconhecido pede abrigo na sua central. Como você reage?",
+    enunciado: "Durante a preparação antes do treino, você aprende sobre o Wai Kru Ram Muay.",
     alternativas: [
-      { texto: "Oferece ajuda e analisa o sistema dele.", afirmacao: "demonstrou empatia e curiosidade tecnológica" },
-      { texto: "Recusa o acesso por questões de segurança.", afirmacao: "manteve protocolos rígidos de defesa" }
+      { texto: "Pratica a dança ritualística com respeito à tradição.", afirmacao: "honrou as tradições do esporte" },
+      { texto: "Foca diretamente nos exercícios de aquecimento no saco de pancada.", afirmacao: "manteve o foco no treino prático" }
     ]
   },
   {
-    enunciado: "Ao explorar as ruínas do antigo centro de dados, você encontra um disco rígido criptografado.",
+    enunciado: "Sua equipe te convida para participar de um campeonato regional de esportes.",
     alternativas: [
-      { texto: "Usa IA para decifrar os arquivos ocultos.", afirmacao: "revelou segredos valiosos do passado" },
-      { texto: "Destrói o disco para evitar que caia em mãos erradas.", afirmacao: "evitou possíveis ameaças tecnológicas" }
+      { texto: "Aceita o desafio e intensifica os treinos diários.", afirmacao: "entrou de cabeça na competição" },
+      { texto: "Decide focar no treino por lazer e saúde.", afirmacao: "manteve o esporte como estilo de vida saudável" }
     ]
   }
 ];
